@@ -1,0 +1,64 @@
+# Python general
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# VS Code configuration files (optional)
+.vscode/
+.idea/
+
+# Python cache files
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints (if using Jupyter Notebooks)
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+
+# FastAPI specific
+*.db  # SQLite database files
+*.sqlite3  # SQLite database files
+instance/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Test results
+coverage/
+
+# Docker-related files
+docker-compose*.yml
+Dockerfile
+.dockerignore
+
+# MacOS system files
+.DS_Store
